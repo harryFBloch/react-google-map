@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MapComponent from './MapComponent'
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <MapComponent lat={40.756795} lng={-73.954298}/>
       </header>
     </div>
   );
